@@ -4,7 +4,7 @@ Nik Hamidi Wan Hamat| 1712475
 Umar Hakimi Zahabuddin|  1714851
 Syed Muhammad Arif Sayed Ali |1718247
 
-# Image_Gallery_RNative
+## TITLE : CLOUD GALLERY
 ### Introduction
     In this final project for movile application development course, we will develop an apps called Cloud Gallery. This apps allow user to take photo and stored it on our database. The app required user to register for them to have access to the cloud storage. 
 
@@ -16,7 +16,7 @@ Syed Muhammad Arif Sayed Ali |1718247
 3. Upload image from device
 4. Camera
 ### Sequence Diagram
-
+![Sequence Diagram](/1.jpg)
 ### References
 1. https://www.codeproject.com/Articles/1267698/How-to-Build-a-React-Native-Image-Gallery-Tutorial
 2. https://guides.github.com/features/mastering-markdown/
