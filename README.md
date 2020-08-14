@@ -22,7 +22,44 @@ Syed Muhammad Arif Sayed Ali |1718247
     User can user our camera feature to capture the images that they like and upload it on our application to be stored
     
 ### Component and API
-    we
+        1) import { NavigationContainer } from '@react-navigation/native';
+            This component we used to track our screen. It can be used to moved to another specific screen that we need for our application
+            
+        2) import { createStackNavigator } from '@react-navigation/stack';
+            It was used for transition wihtin our application between the screens.
+            
+        3) import React, { Component } from 'react';
+            Common used when we are using jsx
+            
+        4) import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
+            This component we used to specify the percentage of our width and height every view in our project. So the size of our view will be changed according to the mobile phone used
+        
+        5) import Icon from 'react-native-vector-icons/Ionicons';
+            We used it for icon to be displayed
+            
+        6) import LinearGradient from 'react-native-linear-gradient';
+            We want to make a gradient color for our specific background screen
+            
+        7) import { View, Text, StyleSheet,TextInput,TouchableOpacity, Btton, Alert, FlatList, ScrollView, StatusBar, Dimensions} from 'react-native';
+            All of those are important component where we want to dispay our content. Stylesheet used to create the style of our specific content. Textinput is needed for user to key in their id, password, to search items and to register the account. While TouchableOpacity is used to create a touchable space for the user to click on it, for example we created button using touchableOpacity to moved to another screen. Button obviouly we used to move to another screen or create an alert using it. While Flatlist is used to render many items that we want to display on our application. Next, ScrollView is used to enble the scroll feature for user to view more content on the screen. We set the Statusbar of our apps. We get the screen height using the Dimensions.
+            
+        8) import auth from '@react-native-firebase/auth';
+            Using this component, we can get authentication from our firebase for the user to log into their account.
+            
+        9) import * as Animatable from 'react-native-animatable';
+            used to create screen animation for our splashscreen,login page screen and profile page.
+            
+        10) import { useTheme } from '@react-navigation/native';
+        11) import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+            This component also we used their library to import the icon 
+            
+        12) import { Card, Divider,IconButton} from 'react-native-paper';
+        
+        13) import { FAB } from 'react-native-paper';
+            To created a floating button of our application. The button used for the camera feature where user can capture the images and upload it on our application
+            
+        14) import { createMaterialBottomTabNavigator} from '@react-navigation/material-bottom-tabs';
+            We create our main pages using the bottom navigation where user can select Home, Search and Profile pages at the bottom bar.
 ### Sequence Diagram
 ![Sequence Diagram](/1.jpg)
 ### References
