@@ -15,11 +15,12 @@ Features & Functionalities  | Explanation
  ---------------------------| -----------------------------------
  Register page              | User can register their own ID to log to our mobile application.
  Login page                 | Enable registered user to login into their own account.
+ Anonymous login            | Enable the anonymous user to view the photos in the application
  React-Native-Camera        | to use the camera to capture the images
  Firebase                   | Use the authentication and database to store the images that user upload or capture through the application.
  Search page                | User can use our textinput to search any images that have been uploaded by other users.
  List page                  | Our mobile application will list and display all the uploaded photos in our application.
- View page                  | User can view the details of every item entered into the database.
+ View page                  | User can view the details of every photos from other users.
     
 ### Component and API
 Component and API                                                          | Explanation
@@ -46,3 +47,6 @@ import { createMaterialBottomTabNavigator} from '@react-navigation/material-bott
 2. https://guides.github.com/features/mastering-markdown/
 3. https://github.com/react-native-community/react-native-image-picker
 4. https://firebase.google.com/docs/auth/web/start
+5. https://reactnavigation.org/
+6. https://reactnative.dev/
+7. https://github.com/oblador/react-native-animatable
