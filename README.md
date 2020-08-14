@@ -40,7 +40,9 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';    |  This 
 import { Card, Divider,IconButton} from 'react-native-paper';           |component card is a sheet of material that serves as an entry point to more detailed information.
 import { FAB } from 'react-native-paper';                               |  To created a floating button of our application. The button used for the camera feature where user can capture the images and upload it on our application        
 import { createMaterialBottomTabNavigator} from '@react-navigation/material-bottom-tabs';  | We create our main pages using the bottom navigation where user can select Home, Search and Profile pages at the bottom bar.
-            
+
+### Screen Navigation
+
 ### Sequence Diagram
 ![Sequence Diagram](/1.jpg)
 ### References
