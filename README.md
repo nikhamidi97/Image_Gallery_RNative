@@ -35,10 +35,10 @@ import LinearGradient from 'react-native-linear-gradient';      | We want to mak
 import { View, Text, StyleSheet,TextInput,TouchableOpacity, Btton, Alert, FlatList, ScrollView, StatusBar, Dimensions} from 'react-native';| All of those are important component where we want to dispay our content. Stylesheet used to create the style of our specific content. Textinput is needed for user to key in their id, password, to search items and to register the account. While TouchableOpacity is used to create a touchable space for the user to click on it, for example we created button using touchableOpacity to moved to another screen. Button obviouly we used to move to another screen or create an alert using it. While Flatlist is used to render many items that we want to display on our application. Next, ScrollView is used to enble the scroll feature for user to view more content on the screen. We set the Statusbar of our apps. We get the screen height using the Dimensions.                     
 import auth from '@react-native-firebase/auth';             |Using this component, we can get authentication from our firebase for the user to log into their account.
 import * as Animatable from 'react-native-animatable';      |used to create screen animation for our splashscreen,login page screen and profile page.
-import { useTheme } from '@react-navigation/native';        | nananana      
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';    |   This component also we used their library to import the icon 
-import { Card, Divider,IconButton} from 'react-native-paper';           | nananana
-import { FAB } from 'react-native-paper';                               |   To created a floating button of our application. The button used for the camera feature where user can capture the images and upload it on our application        
+import { useTheme } from '@react-navigation/native';        |To access the currently active theme     
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';    |  This component also we used their library to import the icon 
+import { Card, Divider,IconButton} from 'react-native-paper';           |component card is a sheet of material that serves as an entry point to more detailed information.
+import { FAB } from 'react-native-paper';                               |  To created a floating button of our application. The button used for the camera feature where user can capture the images and upload it on our application        
 import { createMaterialBottomTabNavigator} from '@react-navigation/material-bottom-tabs';  | We create our main pages using the bottom navigation where user can select Home, Search and Profile pages at the bottom bar.
             
 ### Sequence Diagram
