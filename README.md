@@ -20,6 +20,9 @@ Syed Muhammad Arif Sayed Ali |1718247
     Our mobile application can be used to upload user's own photo and they also can view other's photo through their account. We will store their photo in our database and call all the user's account to display the photo on the explore part.
 4. Camera
     User can user our camera feature to capture the images that they like and upload it on our application to be stored
+    
+### Component and API
+    we
 ### Sequence Diagram
 ![Sequence Diagram](/1.jpg)
 ### References
