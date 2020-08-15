@@ -42,7 +42,7 @@ import { FAB } from 'react-native-paper';                               |  To cr
 import { createMaterialBottomTabNavigator} from '@react-navigation/material-bottom-tabs';  | We create our main pages using the bottom navigation where user can select Home, Search and Profile pages at the bottom bar.
 
 ### Screen Navigation
-
+![Screen Navigation](/2.jpg)
 ### Sequence Diagram
 ![Sequence Diagram](/1.jpg)
 ### References
