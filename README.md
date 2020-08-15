@@ -44,7 +44,7 @@ import { createMaterialBottomTabNavigator} from '@react-navigation/material-bott
 ### Screen Navigation
 ![Screen Navigation](/2.jpg)
 ### Sequence Diagram
-![Sequence Diagram](/1.jpg)
+![Sequence Diagram](/5.jpg)
 ### References
 1. https://www.codeproject.com/Articles/1267698/How-to-Build-a-React-Native-Image-Gallery-Tutorial
 2. https://guides.github.com/features/mastering-markdown/
